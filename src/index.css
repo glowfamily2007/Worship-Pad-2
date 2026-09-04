@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* DAW Studio Theme & Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1115;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d333d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Vertical slider fix for Firefox and Webkit */
+input[type="range"][writing-mode="vertical-lr"] {
+  -webkit-appearance: slider-vertical;
+}

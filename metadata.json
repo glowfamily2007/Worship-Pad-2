@@ -1,0 +1,10 @@
+{
+  "name": "Worship Pad",
+  "description": "Multitrack digital audio workstation with real-time audio recording, virtual instruments, timeline editing, mixing console, and audio effects.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
